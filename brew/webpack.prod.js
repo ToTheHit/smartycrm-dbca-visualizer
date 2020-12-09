@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const common = require('./webpack.config.js');
 
 // Paste here part of Github Pages URL after github.io/
-const page = 'stash';
+const page = 'smartycrm-dbca-visualizer';
 
 module.exports = merge(common, {
   mode: 'production',
