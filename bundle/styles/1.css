@@ -14,6 +14,40 @@
   margin: 15px 0;
   align-self: center;
 }
+.App__tables {
+  margin-top: 25px;
+  display: flex;
+}
+.App__tables__table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App__tables__table:not(:first-child) {
+  margin-left: 25px;
+}
+.List {
+  border: 1px solid black;
+}
+.tableCell {
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.tableCell__id {
+  border-right: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+.tableCell__count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 20px;
+}
 .system-info {
   display: flex;
   flex-direction: row;
