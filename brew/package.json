@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@syncfusion/ej2-base": "^18.3.52",
+    "@syncfusion/ej2-react-charts": "^18.3.52",
     "autoprefixer": "^9.7.5",
     "axios": "^0.19.2",
     "cssnano": "^4.1.10",
@@ -19,6 +21,7 @@
     "react-inlinesvg": "^1.2.0",
     "react-scripts": "^3.4.1",
     "react-slick": "^0.25.2",
+    "react-window": "^1.8.6",
     "react-yandex-maps": "^4.3.0",
     "slick-carousel": "^1.8.1",
     "smoothscroll-polyfill": "^0.4.4",
@@ -44,6 +47,7 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
     "@svgr/webpack": "^5.3.1",
